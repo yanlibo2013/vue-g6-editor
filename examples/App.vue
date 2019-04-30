@@ -6,6 +6,7 @@
 
 <script>
 /* eslint-disable */
+import BaseFlow from '../packages/vue-g6-editor/src/BaseFlow.vue'
 import FlowData from "./model/flow";
 
 export default {
@@ -15,7 +16,9 @@ export default {
       data: FlowData
     };
   },
-  components: {},
+  components: {
+    BaseFlow
+  },
   methods: {
     save() {}
   }
